@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Exercício</title>
+    <script>
+      var multiplos3 = 0;
+      var multiplos5 = 0;
+      for (i = 0; i < 1000; i++) {
+        multiplos3 += (i % 3 == 0) ? i : 0;
+        multiplos5 += (i % 5 == 0) ? i : 0;
+      }
+      document.write("Somatórios dos Múltiplos de 3: " + multiplos3 + "<br>");
+      document.write("Somatórios dos Múltiplos de 5: " + multiplos5 + "<br>");
+      document.write("Somatórios dos Múltiplos de 5 e 3: " + parseInt(multiplos3+multiplos5));
+    </script>
+  </head>
+  <body>
+    <h1>Exercício 07</h1>
+  </body>
+</html>
+<!--
+
+var variável = ( ... )
+
+    Define uma variável e atribui a ela um valor.
+
+for (i = 0; i < 1000; i++) { ... };
+
+    Laço de repetição que fará a iteração (repetição sucessiva) do bloco de instruções entre as chaves enquanto o contador (i) for menor que 1.000;
+    Esse laço de repetição tem por objetivo encontrar todos os múltiplos de 3 e 5 entre 0 (i = 0) e 999 (i = 999) e somá-los às variáveis definidas;
+    Os múltiplos de 3 e 5 são todos os números que divididos por eles não deixem restos;
+
+    Exemplo:
+
+    Múltiplos de 3:
+
+    0, 3, 6, 9, 12, 15, 18, 21 (...)
+
+    9 / 3 = 3, Resto = O logo 9 é um múltiplo de 3.
+
+variavel += (i % n == 0) ? i : 0;
+
+    Faz uma operação com o atual valor da variável e o resultado da expressão de seleção ternário;
+    O resultado retornado pela expressão de seleção será o contador i ou ZERO ( 0 );
+    A condição da expressão de seleção verifica se há restos na divisão do contador i por n (n é igual a 3 ou 5 em nosso exemplo);
+    Sem restos indicará que foi encontrado um divisor ( n ) e o contador é um múltiplo de n;
+    Com restos da operação será somado a ZERO, ou seja, o valor da variável não será alterado.
+
+document.write('mensagem');
+
+    Escreve diretamente no documento e apresenta mensagens personalizadas.
+
+Resultado no navegador:
+
+Somatórios dos Múltiplos de 3: 166833
+Somatórios dos Múltiplos de 5: 99500
+Somatórios dos Múltiplos de 5 e 3: 266333
+-->

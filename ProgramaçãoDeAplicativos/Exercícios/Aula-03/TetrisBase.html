@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Tetris em JavaScript</title>
+    <style>
+        /* Estilos básicos para o grid do Tetris */
+        #grid {
+            display: grid;
+            grid-template-columns: repeat(10, 20px);
+            grid-template-rows: repeat(20, 20px);
+            gap: 1px;
+            width: 210px;
+            height: 420px;
+            background-color: #333;
+            margin: auto;
+            margin-top: 50px;
+        }
+        .block {
+            width: 20px;
+            height: 20px;
+            background-color: lightblue;
+        }
+        .block-taken {
+            background-color: lightcoral;
+        }
+        #joystick {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+    </style>
+    <!-- Incluindo jQuery e NippleJS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/nipplejs@0.8.6/dist/nipplejs.min.js"></script>
+</head>
+<body>
+    <div id="grid"></div>
+    <div id="joystick"></div>
+    <script>
+        const grid = $('#grid');
+        const width = 10;
+        const height = 20;
+        let currentPosition = 4;
+        let currentRotation = 0;
+        let timerId;
+
+        // Cria o grid do Tetris
+        for (let i = 0; i < width * height; i++) {
+            $('<div></div>').appendTo(grid);
+        }
+
+        const blocks = $('#grid div');
+
+        // Definindo as peças (tetrominos)
+        const lTetromino = [
+            [1, width+1, width*2+1, 2],
+            [width, width+1, width+2, width*2+2],
+            [1, width+1, width*2+1, width*2],
+            [width, width*2, width*2+1, width*2+2]
+        ];
+
+        let current = lTetromino[currentRotation];
+
+        // Desenha a peça
+        function draw() {
+            current.forEach(index => {
+                $(blocks[currentPosition + index]).addClass('block');
+            });
+        }
+
+        // Apaga a peça
+        function undraw() {
+            current.forEach(index => {
+                $(blocks[currentPosition + index]).removeClass('block');
+            });
+        }
+
+        // Movimenta a peça para baixo
+        function moveDown() {
+            undraw();
+            currentPosition += width;
+            draw();
+            freeze();
+        }
+
+        // Congela a peça e começa uma nova peça
+        function freeze() {
+            if (current.some(index => $(blocks[currentPosition + index + width]).hasClass('block-taken'))) {
+                current.forEach(index => $(blocks[currentPosition + index]).addClass('block-taken'));
+                currentRotation = 0;
+                current = lTetromino[currentRotation];
+                currentPosition = 4;
+                draw();
+                addScore();
+                gameOver();
+            }
+        }
+
+        // Movimenta a peça para a esquerda
+        function moveLeft() {
+            undraw();
+            const isAtLeftEdge = current.some(index => (currentPosition + index) % width === 0);
+            if (!isAtLeftEdge) currentPosition -= 1;
+            if (current.some(index => $(blocks[currentPosition + index]).hasClass('block-taken'))) {
+                currentPosition += 1;
+            }
+            draw();
+        }
+
+        // Movimenta a peça para a direita
+        function moveRight() {
+            undraw();
+            const isAtRightEdge = current.some(index => (currentPosition + index) % width === width - 1);
+            if (!isAtRightEdge) currentPosition += 1;
+            if (current.some(index => $(blocks[currentPosition + index]).hasClass('block-taken'))) {
+                currentPosition -= 1;
+            }
+            draw();
+        }
+
+        // Rotaciona a peça
+        function rotate() {
+            undraw();
+            currentRotation++;
+            if (currentRotation === lTetromino.length) {
+                currentRotation = 0;
+            }
+            current = lTetromino[currentRotation];
+            draw();
+        }
+
+        // Captura os eventos de teclado e chama as funções de movimento ou rotação
+        function control(e) {
+            if (e.keyCode === 37) { // Seta para a esquerda
+                moveLeft();
+            } else if (e.keyCode === 38) { // Seta para cima (rotacionar)
+                rotate();
+            } else if (e.keyCode === 39) { // Seta para a direita
+                moveRight();
+            } else if (e.keyCode === 40) { // Seta para baixo
+                moveDown();
+            }
+        }
+
+        // Adiciona o listener para eventos de teclado
+        $(document).on('keydown', control);
+
+        // Inicializa o joystick
+        const options = {
+            zone: document.getElementById('joystick'),
+            mode: 'static',
+            position: { top: '50%', left: '50%' },
+            color: 'blue',
+            size: 200
+        };
+
+        const joystick = nipplejs.create(options);
+
+        joystick.on('move', (evt, data) => {
+            if (data.direction) {
+                switch (data.direction.angle) {
+                    case 'left':
+                        moveLeft();
+                        break;
+                    case 'right':
+                        moveRight();
+                        break;
+                    case 'down':
+                        moveDown();
+                        break;
+                }
+            }
+        });
+
+        // Intervalo de tempo para a peça se mover
+        timerId = setInterval(moveDown, 1000);
+
+        // Verifica se o jogo acabou
+        function gameOver() {
+            if (current.some(index => $(blocks[currentPosition + index]).hasClass('block-taken'))) {
+                alert('Fim de Jogo');
+                clearInterval(timerId);
+            }
+        }
+
+        // Adiciona pontuação (pode ser personalizada)
+        function addScore() {
+            for (let i = 0; i < width * height; i += width) {
+                const row = Array.from({ length: width }, (_, index) => i + index);
+                if (row.every(index => $(blocks[index]).hasClass('block-taken'))) {
+                    row.forEach(index => $(blocks[index]).removeClass('block-taken'));
+                    const blocksRemoved = blocks.splice(i, width);
+                    blocks = blocksRemoved.concat(blocks);
+                    blocks.forEach(cell => grid.append(cell));
+                }
+            }
+        }
+    </script>
+</body>
+</html>

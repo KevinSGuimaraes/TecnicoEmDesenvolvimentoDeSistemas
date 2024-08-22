@@ -1,0 +1,72 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Exercício</title>
+    <script>
+      function calcularDelta() {
+        var a = document.getElementById("a").value;
+        var b = document.getElementById("b").value;
+        var c = document.getElementById("c").value;
+        resultadoHTML =  "";
+        resultadoHTML += "&Delta; = " + b + "<sup>2</sup> - 4 * " + a + " * " + c + '<br>';
+        resultadoHTML += "&Delta; = " + b * b + " - 4 * " + a + " * " + c + '<br>';
+        resultadoHTML += "&Delta; = " + b * b + " - " + 4 * a + " * " + c + '<br>';
+        resultadoHTML += "&Delta; = " + b * b + " - " + 4 * a * c + '<br>';
+        resultadoHTML += "&Delta; = " + parseInt(b * b - 4 * a * c) + '<br>';
+        document.getElementById("resultadoDelta").innerHTML = resultadoHTML;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Exercício 11</h1>
+    <h3>&Delta; = b<sup>2</sup> - 4 . a . c</h3>
+    <label for="a">Valor de a: </label>
+    <input id="a" type="number" min="0" max="100"><br>
+    <label for="b">Valor de b: </label>
+    <input id="b" type="number" min="0" max="100"><br>
+    <label for="c">Valor de c: </label>
+    <input id="c" type="number" min="0" max="100"><br><br>
+    <button onclick="calcularDelta()">Calcular o &Delta;</button>
+    <p></p>
+    <div id="resultadoDelta"></div>
+  </body>
+</html>
+
+<!--
+function minhaFuncao() { ... };
+
+    Cria uma função JavaScript (também chamada de método);
+    Essa função, quando executada, calculará o Δ (Delta) a partir de valores de elementos da página;
+    Os cálculos serão apresentados passo a passo.
+
+var variável = ( ... )
+
+    Define uma variável e atribui a ela um valor;
+    Os valores atribuídos às variáveis definidas serão as informações de elementos da página identificados através do método getElementById('identificador'), onde .value retornará o valor a ser atribuído.
+
+document.getElementById("ID").value
+
+    Esse método/função retorna o elemento que possui o ID de atributo com o valor especificado;
+    É usado quase toda vez em que se desejar manipular, ou obter informações, de um elemento em seu documento;
+    O atributo .value retorna o conteúdo do elemento.
+
+resultadoHTML += " ( ... )
+
+    Concatena a uma variável os resultados dos cálculos;
+    Os valores concatenados (resultados) estão formatados com TAGs HTML.
+
+document.getElementById("ID").innerHTML
+
+    A propriedade .innerHTML retorna o conteúdo HTML de um elemento encontrado na página pelo método getElementById('ID') (onde "ID" é o identificador único atribuído ao elemento);
+    Para obter o conteúdo de um elemento deve-se fazer uma atribuição do seu valor a uma variável (nomeVariavel = elemento.innerHTML);
+    Para alterar o conteúdo deve-se atribuir o novo conteúdo como exemplificado (elemento.innerHTML = "novo_conteúdo");
+    Por aceitar código HTML pode-se incluir TAGs para formatar o seu conteúdo.
+    No nosso exemplo o método encontra o elemento na página identificado por id="resultadoDelta" e altera o seu conteúdo a partir da variável resultadoHTML.
+
+<button onclick="minhaFuncao()">Clique aqui!</button>
+
+    Cria um botão e atribui a ele uma chamada de função para o evento onclick;
+    O evento onclick ocorre quando o usuário clica em um elemento. 
+-->

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Exercício</title>
+    <script>
+      var base      = 2;
+      var expoente  = 8;
+      var resultado = base;
+      document.write('Base: 2' + '<br>');
+      document.write('Expoente: 8' + '<br><br>');
+      for (i = 0; i <= expoente; i++) {
+        if (i == 0) {
+          document.write('2<sup>' + i + '</sup> = 1 <br>');
+        } else if (i == 1) {
+          document.write("2<sup>" + i + "</sup> = " + (2*1) + "<br>");
+        } else {
+          for (x = 2; x <= i; x++) {
+            resultado *= base;
+          }
+          document.write("2<sup>" + i + "</sup> = " + resultado + "<br>");
+          resultado = base;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Exercício 15</h1>
+  </body>
+</html>
+<!--
+var = (...);
+
+    Cria as variáveis que serão usadas no processamento do código JavaScript;
+
+document.write('mensagem')
+
+    Escreve diretamente no documento e apresenta mensagens personalizadas.
+
+for (i = 0; i <= expoente; i++) { ... }
+
+    Laço de repetição que fará a iteração (repetição sucessiva) do bloco de instruções entre as chaves enquanto o contador (i) for menor ou igual ao expoente ( 8 );
+    Esse laço de repetição atende ao item 2 (apresentar passo a passo os cálculos a partir do expoente ZERO).
+
+document.write("2<sup>" + i + "</sup> (...));
+
+    Apresenta no navegador a base e o expoente no formato solicitado no item 5 ( an ).
+
+if (i==0) {...} else if (i==1) {...}
+
+    Se a variável i for igual a 0 ou 1 será apresentado, literalmente, uma mensagem informando o resultado que seria obtido pela operação de exponenciação com o expoente 0 ou 1. 
+
+} else { for (x = 2; x <= i; x++) {...}
+
+    Se o contador i não for 0 nem 1 então (else) faremos um segundo laço de repetição;
+    O contador x controlará quantas vezes (expoente) faremos a multiplicação para simular a exponenciação;
+    Enquanto x for menor ou igual a i nosso código fará a multiplicação da base por ela mesma.
+
+resultado *= base;
+
+    Executando a multiplicação da base por ela mesma;
+    Executará a multiplicação enquanto x for menor ou igual a i.
+    Inicialmente a variável resultado foi definida com o mesmo valor da variável base;
+    Essa operação está armazenando o resultado cumulativamente na variável resultado;
+    O mesmo que resultado = resultado * base.
+-->

@@ -1,0 +1,88 @@
+Questão 11)
+
+Calcule o Delta de uma função de segundo grau.
+
+Calculo do Delta (Δ) de uma função de segundo grau.
+
+Sabendo que:
+
+a = 2, b = 8 e c = – 24
+
+O valor de delta é dado pela seguinte expressão: Δ = b2 – 4ac, em que a, b e c são coeficientes da equação e Δ é delta.
+
+Tomando o exemplo anterior, na equação 2x2 + 8x – 24 = 0, delta vale:
+
+Δ = b2 – 4ac
+Δ = 82 – 4·2·(– 24)
+Δ = 64 + 192
+Δ = 256
+
+Crie um programa JavaScript que faça esse cálculo, mostrando o cálculo passo a passo e o resultado final, a partir de números informados pelo usuário! 
+
+
+Questão 12)
+
+Inverta uma sequência de caracteres informada sem utilizar funções nativas JavaScript
+
+Dada uma sequência de caracteres, inverta o seu conteúdo e apresente ao usuário o resultado invertido.
+
+Não utilize funções nativas do JavaScript.
+
+
+Questão 13)
+Potênciação com qualquer base ou expoente
+
+1) Elaborar um programa que apresente o resultado de uma operação de potenciação com números aleatórios, inteiros e positivos;
+2) Apresente os números envolvidos na operação (base, expoente e potência/resultado);
+3) O exercício de deverá ser elaborado SEM o uso de função JavaScript Math.pow();
+
+Observação:
+
+A potenciação (ou exponenciação) é uma operação onde um dado número é multiplicado por ele mesmo, uma quantidade 'n' de vezes.
+
+an = b
+
+Onde:
+  a = base;
+  n = expoente;
+  b = potência.
+  
+Questão 14)
+Potênciação exibindo os resultados de cada operação
+
+1) Elaborar um programa que apresente o resultado de uma operação de potenciação usando os números 2 (dois) e 8 (oito) como base e expoente respectivamente;
+2) Apresente passo a passo os resultados, começando com o expoente em 0 (zero) até o expoente máximo (8);
+3) O exercício de deverá ser elaborado SEM o uso de função JavaScript Math.pow() ou do laço de repetição for();
+4) Apresente a base e o expoente no formato padrão de potenciação (Ex: 32), utilizando a TAG <sup>.
+
+Observação:
+
+A potenciação (ou exponenciação) é uma operação onde um dado número é multiplicado por ele mesmo, uma quantidade 'n' de vezes.
+
+an = b
+
+Onde:
+  a = base;
+  n = expoente;
+  b = potência.
+  
+Questão 15)
+
+Potênciação exibindo os resultados de cada operação utilizando o laço de repetição for
+
+1) Elaborar um programa que apresente o resultado de uma operação de potenciação usando os números 2 (dois) e 8 (oito) como base e expoente respectivamente;
+2) Apresente passo a passo os resultados, começando com o expoente em 0 (zero) até o expoente máximo (8);
+3) O exercício de deverá ser elaborado SEM o uso de função JavaScript Math.pow();
+4) Utilize o laço de repetição for;
+5) Apresente a base e o expoente no formato padrão de potenciação (Ex: 32), utilizando a TAG <sup>.
+
+Observação:
+
+A potenciação (ou exponenciação) é uma operação onde um dado número é multiplicado por ele mesmo, uma quantidade 'n' de vezes.
+
+an = b
+
+Onde:
+  a = base;
+  n = expoente;
+  b = potência.

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Exercício</title>
+    <script>
+      var primosEncontrados = 0;
+      for (dividendo = 2; primosEncontrados < 1001; dividendo++) {
+        var ehPrimo = true;
+        for (divisor = 2; dividendo > divisor ; divisor++) {
+          if (dividendo % divisor == 0) {
+            ehPrimo = false;
+            break;
+          };
+        };
+        if (Boolean(ehPrimo)) { 
+          primosEncontrados++;
+        }
+      };
+      document.write("O 1001o número primo é: ");
+      document.write(--dividendo + '<br><br>');
+    </script>
+  </head>
+  <body>
+    <h1>Exercício 09</h1>
+  </body>
+</html>
+<!--
+A Lógica:
+
+    Será iniciado uma verificação de números primos, a partir do número DOIS (2), até que 1001 números primos tenham sido encontrados;
+    Para verificar se um número é primo temos que dividir esse número por todos os números menores que ele até DOIS (dividendo = 2);
+    Se em qualquer dessas divisões consecutivas o resto da divisão for igual a ZERO o número NÃO é um número primo.
+
+Exemplo:
+
+Não dividiremos por ele mesmo nem por UM pois o resto da divisão de qualquer número por ele mesmo e por UM será igual a ZERO.
+9/9 = 1 => Resto = 0 (Dividiu por ele mesmo!)
+9/1 = 1 => Resto = 0 (Dividiu por 1.)
+
+E quando dividirmos por todos os números menores que ele até o número DOIS?
+9/8 = 1 => Resto = 1
+9/7 = 1 => Resto = 2
+9/6 = 1 => Resto = 3
+9/5 = 1 => Resto = 4
+9/4 = 2 => Resto = 1
+9/3 = 3 => Resto = 0 (Dividiu por 3, logo não é primo)
+9/2 = 4 => Resto = 1
+
+O número somente será um número primo quando RESTAR ZERO somente na divisão dele por ele mesmo e por UM!
+Agora vamos analisar o programa JavaScript
+var primosEncontrados = 0;
+
+    Define a variável que servirá para contar os números primos encontrados.
+
+for (dividendo = 2; primosEncontrados < 1001; dividendo++) {... };
+
+    Laço de repetição que repetirá o bloco de comandos enquanto o contador ( primosEncontrados ) for menor que 1001;
+    Inicialmente foi atribuído à variável dividendo o número DOIS (2), o primeiro número primo;
+    A cada iteração (repetição/loop) o valor da variável dividendo será incrementado em + 1 ( ++ ) e na sequência será verificado se essa variável/número é um número primo ou não;
+    A variável dividendo será incrementada até que o 1001o número primo seja encontrado, ou seja, até que a variável primosEncontrados seja igual a 1001.
+
+var ehPrimo = true;
+
+    Essa variável terá o seu valor modificado para false se a variável dividendo não for um número primo (próximo laço de repetição).
+
+for (divisor = 2; divisor < dividendo ; divisor++) { ... };
+
+    Laço de repetição para verificar se o dividendo atual é um número primo;
+    A divisão começará com o divisor iniciando em DOIS (2) até quando o divisor for MENOR que o dividendo.
+
+if (dividendo % divisor == 0) { ehPrimo = false; break; };
+
+    Se em qualquer iteração (repetição) o resto da divisão for igual a ZERO significará que o dividendo não é um número primo;
+    Um número primo é aquele número que só pode ser dividido por ele mesmo ou por UM (1) sem deixar restos;
+    Em nosso laço de repetição a variável divisor nunca será UM (inicialmente é definido com o valor DOIS), e nunca será igual ao dividendo pois o laço de repetição irá parar quando divisor < dividendo.
+
+if (Boolean(ehPrimo)) { primosEncontrados++; }
+
+    Caso o último dividendo tenha sido um número primo a variável que está contanto os números primos encontrados será incrementada em +1 ( ++ ).
+    Quando a variável dividendo não for um número primo a variável ehPrimo será falsa (false), a variável primosEncontrados não será incrementada, o programa voltará para o laço de repetição inicial para verificar o próximo dividendo.
+
+Resultado no navegador:
+
+O 1001o número primo é: 7927
+
+Exercício 09
+
+
+-->

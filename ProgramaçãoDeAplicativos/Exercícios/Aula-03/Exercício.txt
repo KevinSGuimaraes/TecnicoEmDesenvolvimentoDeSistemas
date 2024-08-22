@@ -1,0 +1,33 @@
+Enunciado para Reproduzir e Personalizar o Jogo Tetris em JavaScript
+
+Objetivo: Nesta atividade, você vai reproduzir e personalizar um jogo Tetris básico utilizando HTML, CSS e JavaScript. O objetivo é entender como manipular o DOM, trabalhar com estilos CSS e aplicar lógica de programação em JavaScript para criar um jogo interativo.
+Passo a Passo:
+
+    Criação do Arquivo HTML:
+        Crie um novo arquivo com o nome tetris.html no seu editor de texto ou IDE preferido.
+        Copie e cole o código fornecido abaixo no arquivo.
+
+    Estrutura Básica:
+        O código HTML fornece a estrutura básica do jogo, incluindo a definição de um grid (tabuleiro) para o jogo Tetris, onde as peças (tetrominos) irão cair.
+        A tag <style> define o estilo do grid e das peças do jogo.
+        O código JavaScript é responsável por criar o grid dinamicamente e manipular a lógica de movimento das peças.
+
+    Personalização:
+        Estilo: Você pode modificar o CSS dentro da tag <style> para alterar a aparência do jogo. Experimente mudar as cores, o tamanho dos blocos ou a aparência geral do grid.
+        Lógica: Explore o código JavaScript para adicionar novas funcionalidades, como a rotação das peças, movimentação para os lados, ou até mesmo a lógica de remoção de linhas completas.
+        Grid: O grid é configurado para ter 10 colunas e 20 linhas, mas você pode ajustar essas dimensões para criar variações do jogo.
+        Velocidade: A função setInterval define a velocidade com que as peças caem. Você pode ajustar o tempo (1000 milissegundos) para tornar o jogo mais fácil ou mais difícil.
+
+    Testes:
+        Após personalizar, salve o arquivo e abra-o em um navegador da web para ver o resultado. Cada alteração feita no código pode ser visualizada ao atualizar a página.
+
+    Exploração Adicional:
+        Para um desafio maior, tente adicionar funcionalidades como pontuação, fim de jogo, ou até mesmo diferentes tipos de tetrominos.
+
+
+Entrega:
+
+    Após realizar as personalizações, salve o arquivo HTML e envie para revisão.
+    Descreva as alterações que você fez e explique como elas afetam o jogo.
+
+Divirta-se criando o seu próprio Tetris!

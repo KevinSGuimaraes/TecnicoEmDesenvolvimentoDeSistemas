@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table, th, td {
+        border: 1px solid black;}
+      table {
+        border-collapse: collapse;}
+      th, td {
+        padding: 5px;}
+    </style>
+    <title>JavaScript Exercício</title>
+    <script>
+      tabelaHTML = "<table><tr><th colspan='50'>Números Primos entre 0 e 200<tr><td>1";
+      var primosEncontrados = 0;
+      for (dividendo = 2; dividendo <= 200; dividendo++) {
+        var ehPrimo = true;
+        for (divisor = 2; divisor < dividendo ; divisor++) {
+          if (dividendo % divisor == 0) {
+            ehPrimo = false;
+            tabelaHTML += "<td>" + dividendo;
+            break;
+          };
+        };
+        if (Boolean(ehPrimo)) { 
+          tabelaHTML += "<td bgcolor='#00FF00'>" + dividendo;
+          primosEncontrados++;
+        }
+        dividendo % 20 == 0 ? tabelaHTML += "<tr>" : false;
+      };
+      tabelaHTML += "</table>";
+      document.write(tabelaHTML)
+      document.write('Primos encontrados: ' + primosEncontrados+ '<br>');
+    </script>
+  </head>
+  <body>
+    <h1>Exercício 10</h1>
+  </body>
+</html>
+
+<!--
+A Lógica:
+
+    Será iniciado uma verificação de números primos, a partir do número DOIS (2), até que 200 números tenham sido encontrados;
+    Os números encontrados serão apresentados em uma tabela (<table>) e os números primos estarão destacados;
+    Para verificar se um número é primo temos que dividir esse número por todos os números menores que ele até DOIS (dividendo = 2);
+    Se em qualquer dessas divisões consecutivas o resto da divisão for igual a ZERO o número NÃO será um número primo.
+
+Exemplo:
+
+Não dividiremos por ele mesmo nem por UM pois o resto da divisão de qualquer número por ele mesmo e por UM será igual a ZERO.
+9/9 = 1 => Resto = 0 (Dividiu por ele mesmo!)
+9/1 = 1 => Resto = 0 (Dividiu por 1.)
+
+E quando dividirmos por todos os números menores que ele até o número DOIS?
+9/8 = 1 => Resto = 1
+9/7 = 1 => Resto = 2
+9/6 = 1 => Resto = 3
+9/5 = 1 => Resto = 4
+9/4 = 2 => Resto = 1
+9/3 = 3 => Resto = 0 (Dividiu por 3, logo não é primo)
+9/2 = 4 => Resto = 1
+
+O número somente será um número primo quando RESTAR ZERO somente na divisão dele por ele mesmo e por UM!
+Agora vamos analisar o programa JavaScript
+tabelaHTML = "<table><tr><th colspan='50'>Números Primos entre 0 e 200<tr><td>1";
+
+    Cria uma variável que será preenchida com as TAGs de uma tabela e com o seu conteúdo de forma dinâmica;
+    Inicialmente será atribuído um título e o primeiro elemento: 01;
+    O conteúdo da primeira célula será o número UM, pois durante o processo, para encontrar os números primos, ele não será validado.
+
+var primosEncontrados = 0;
+
+    Define a variável que servirá para contar os números primos encontrados e apresentar uma mensagem para o usuário ao final do processo.
+
+for (dividendo = 2; primosEncontrados <= 200; dividendo++) {... };
+
+    Laço de repetição que repetirá o bloco de comandos enquanto o contador ( dividendo ) for menor ou igual a 200;
+    Inicialmente foi atribuído à variável dividendo o número DOIS (2), o primeiro número primo;
+    A cada iteração (repetição/loop) o valor da variável dividendo será incrementado em +1 ( ++ ) e na sequência será verificado se essa variável/número é um número primo ou não;
+    A variável dividendo será incrementada até que o 200 números sejam processados.
+
+var ehPrimo = true;
+
+    Essa variável terá o seu valor modificado para false se a variável dividendo não for um número primo (próximo laço de repetição).
+
+for (divisor = 2; divisor < dividendo ; divisor++) { ... };
+
+    Laço de repetição para verificar se o dividendo atual é um número primo;
+    A divisão começará com o divisor iniciando em DOIS (2) até quando o divisor for MENOR que o dividendo.
+
+if (dividendo % divisor == 0) { ehPrimo = false; break; };
+
+    Se em qualquer iteração (repetição) o resto da divisão for igual a ZERO significará que o dividendo não é um número primo;
+    Um número primo é aquele número que só pode ser dividido por ele mesmo ou por UM (1) sem deixar restos;
+    Em nosso laço de repetição a variável divisor nunca será UM (inicialmente é definido com o valor DOIS), e nunca será igual ao dividendo pois o laço de repetição irá parar quando divisor < dividendo.
+
+tabelaHTML += "<td>" + dividendo;
+
+    Em continuação concatena uma CÉLULA (<td>) com o valor da variável dividendo ao final da variável tabelaHTML.
+
+if (Boolean(ehPrimo)) { primosEncontrados++; }
+
+    Caso o último dividendo tenha sido um número primo a variável que está contanto os números primos encontrados será incrementada em +1 ( ++ ).
+    Quando a variável dividendo não for um número primo a variável ehPrimo será falsa (false), a variável primosEncontrados não será incrementada, o programa voltará para o laço de repetição inicial para verificar o próximo dividendo.
+
+tabelaHTML += "<td bgcolor='#00FF00'>" + dividendo;
+
+    Em continuação concatena uma CÉLULA (<td>) com o valor da variável dividendo ao final da variável tabelaHTML;
+    Por se tratar de um número primo a célula será formatada/destacada com uma cor (verde), conforme solicitado no enunciado do problema.
+
+dividendo % 20 == 0 ? tabelaHTML += "<tr>" : false;
+
+    A cada VINTE células será concatenado à variável tabelaHTML a TAG <tr> para que seja iniciado uma nova linha na tabela;
+    Se o resto da divisão do número atual (dividendo) por 20 for igual a ZERO significará que é um múltiplo de 20, ou seja, que mais 20 células foram inseridas.
+
+Resultado no navegador:
+Números Primos entre 0 e 200
+1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+21	22	23	24	25	26	27	28	29	30	31	32	33	34	35	36	37	38	39	40
+41	42	43	44	45	46	47	48	49	50	51	52	53	54	55	56	57	58	59	60
+61	62	63	64	65	66	67	68	69	70	71	72	73	74	75	76	77	78	79	80
+81	82	83	84	85	86	87	88	89	90	91	92	93	94	95	96	97	98	99	100
+101	102	103	104	105	106	107	108	109	110	111	112	113	114	115	116	117	118	119	120
+121	122	123	124	125	126	127	128	129	130	131	132	133	134	135	136	137	138	139	140
+141	142	143	144	145	146	147	148	149	150	151	152	153	154	155	156	157	158	159	160
+161	162	163	164	165	166	167	168	169	170	171	172	173	174	175	176	177	178	179	180
+181	182	183	184	185	186	187	188	189	190	191	192	193	194	195	196	197	198	199	200
+-->

@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Exercício</title>
+    <script>
+      function inverter() {
+        var nome = document.getElementById("nome").value;
+        var nomeInvertido = '';
+        for (var i = nome.length - 1; i >= 0; i--) {
+          nomeInvertido += nome[i];
+        }
+        return nomeInvertido;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Exercício 12</h1>
+    <label for="nome">Informe um nome qualquer: </label>
+    <input id="nome" type="text" maxlength=100 minlength=2><br>    
+    <button onclick="alert(inverter())">Retrevni (Inverter)</button>
+  </body>
+</html>
+
+<!--
+Nota Importante!
+
+    Uma sequencia de caracteres é uma strings e é utilizada, normalmente, para guardar dados que podem ser representados em forma de texto;
+    Uma string pode ser tratada como um objeto array (Array-like), onde os caracteres individuais correspondem a um índice numérico;
+    Exemplo: na variável txt = "mguilla" podemos pegar o seu segundo caractere com a instrução result = txt[1];, retornando o caractere 'g' na variável result;
+    Lembre-se: O primeiro índice de um array é representado pelo ZERO ( 0 ).
+
+function minhaFuncao() { ... };
+
+    Cria uma função JavaScript (também chamada de método);
+    A função definida no exemplo dado, ao ser executada, inverterá a sequência de caracteres obtido a partir do valor de um elementos da página e retornará (return) essa sequência invertida.
+
+document.getElementById("ID").value
+
+    Esse método/função retorna o elemento que possui o ID de atributo com o valor especificado;
+    É usado quase toda vez em que se desejar manipular, ou obter informações, de um elemento em seu documento;
+    O atributo .value retorna o conteúdo do elemento.
+
+for (var i = nome.length - 1; i >= 0; i--) { ... };
+
+    Laço de repetição que fará a iteração (repetição sucessiva) do bloco de instruções entre as chaves enquanto o contador (i) for maior ou igual a ZERO ( 0 );
+    Esse laço de repetição percorrerá a sequência informada obtendo cada letra ou caractere, a partir da última posição até a primeira posição (de trás para frente);
+    nome.length - 1 retornará o tamanho da sequência menos 1 (decremento de 1);
+    O contador i será decrementado (-1) a cada iteração até que seu valor seja igual a ZERO (0).
+
+nomeInvertido += nome[i];
+
+    Concatena o valor atual da variável nomeInvertido com o caractere da sequência indicado por nome[i];
+    A instrução nome[i] acessa o caractere da variável nome na posição representado por [i];
+    Inicialmente o acesso será ao último caractere da sequência e continuará decrescendo até o primeiro caractere.
+
+<label for="ID">
+
+    Essa TAG define um rótulo para um elemento <input>;
+    Esse elemento não apresenta nada de especial para o usuário. No entanto, ele fornece uma melhoria de usabilidade para os usuários do mouse, porque, se o usuário clica sobre o texto dentro desse elemento o elemento <input> receberá o foco/controle.
+
+<button onclick="minhaFuncao()">Clique aqui!</button>
+
+    Cria um botão e atribui a ele uma chamada de função para o evento onclick;
+    O evento onclick ocorre quando o usuário clica em um elemento;
+    No exemplo dado o evento onclick apresentará uma janela de alerta (alert('mensagem')) onde a 'mensagem' será o valor retornado pela função definida (funcition inverter() { ... }).
+-->

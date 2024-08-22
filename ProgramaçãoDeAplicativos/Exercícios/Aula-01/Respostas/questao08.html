@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Exercício</title>
+    <script>
+      var arrSequencia    = [0, 1];
+      var sequencia       = 0;
+      var numPares        = 0;
+      var numImpares      = 0;
+      var somaPares       = 0;
+      var proximoElemento = 0;
+      do {
+        sequencia++
+        proximoElemento = arrSequencia[sequencia] + arrSequencia[sequencia-1];
+        proximoElemento < 50000 ? (
+          arrSequencia.push(proximoElemento),
+          proximoElemento % 2 == 0 ? 
+            ( numPares  ++ , 
+              somaPares += proximoElemento )
+            : numImpares ++ )
+        : false;
+        } while  (proximoElemento < 50000);
+      document.write("Sequencia de números : " + arrSequencia.join(' / ') + "<br><br>");
+      document.write("Quantidade de números pares : " + numPares + "<br>");
+      document.write("Quantidade de números impares : " + numImpares + "<br>");
+      document.write("Somatórios dos números pares : " + somaPares)
+    </script>
+  </head>
+  <body>
+    <h1>Exercício 07</h1>
+  </body>
+</html>
+
+<!--
+var arrSequencia = [0, 1];
+
+    Define um array e atribui os seus dois primeiros elementos para começar a encontrar a sequência Fibonacci.
+
+var variavel = ( ... );
+
+    Define uma variável e atribui o seu valor;
+    Definidas as variáveis de controle.
+
+do { instruções } while (proximoElemento < 50000);
+
+    Enquanto o número da sequencia Fibonacci (a soma dos dois últimos elementos do array) não for maior que 50.000 as instruções entre chaves ( { ... } ) serão executadas.
+
+sequencia++
+
+    Variável usada para determinar a posição do último elemento do array;
+    Inicialmente essa variável vale ZERO e é incrementada em +1 (++), para apontar para o segundo elemento do array;
+    Lembre-se: o índice de acesso ao primeiro elemento de um array é (ZERO), ao segundo elemento 1 (UM) e assim sucessivamente.
+
+proximoElemento = arrSequencia[sequencia] + arrSequencia[sequencia-1];
+
+    Armazena na variável proximoElemento o próximo número da sequência (está somando o último elemento [sequencia] ao elemento anterior [sequencia-1] do array).
+
+proximoElemento < 50000 ? ( primeira_instrução ) : ( segunda_instrução );
+
+    Se o próximo elemento da sequência for menor que 50 mil, executará a primeira instrução;
+    utilizando o operador condicional ternário ao invés de uma instrução condicional if ... else;
+    Atenção! Foram usados dois operadores ternários aninhados(!) e várias instruções foram executadas, separadas por vírgulas;
+    Como foi utilizado: expressão ? ( instrução, instrução, ...) : (instrução, instrução, ...);
+
+: false;
+
+    Esta é a segunda instrução do primeiro operador ternário: proximoElemento < 50000 ? (primeira) : (segunda);
+    Quando o próximo elemento da sequência for maior que 50 mil ele será ignorado e será apresentado no navegador as mensagens com os resultados da execução do código JavaScript.
+
+arrSequencia.join(' / ')
+
+    Esse método junta os elementos de um array em uma cadeia de caracteres (string) separados pelo separador especificado como argumento (entre parênteses).
+
+Resultado no navegador:
+
+Sequencia de números : 0 / 1 / 1 / 2 / 3 / 5 / 8 / 13 / 21 / 34 / 55 / 89 / 144 / 233 / 377 / 610 / 987 / 1597 / 2584 / 4181 / 6765 / 10946 / 17711 / 28657 / 46368
+
+Quantidade de números pares : 8
+Quantidade de números impares : 15
+Somatórios dos números pares : 60696
+
+-->
+

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Exercício</title>
+    <script>
+      function ordenar() {
+        var arr = document.getElementById("texto").value.split('');
+        var resultadoHTML = document.getElementById("resultado");
+        resultadoHTML.innerHTML = 'Não ordenado:<br>' + arr.join(' ') + '<br><br>';
+        var tmp;
+        for (var i = 0; i < arr.length - 1; i++) {
+          for (var j = i + 1; j < arr.length; j++) {
+            if (arr[i] > arr[j]) {
+              tmp = arr[i];
+              arr[i] = arr[j];
+              arr[j] = tmp;
+            }
+          }
+        }
+       resultadoHTML.innerHTML += 'Ordenado:<br>' + arr.join(' ');
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Exercício 19</h1>
+    <label for="texto">Informe um texto qualquer: </label>
+    <input id="texto" type="text" maxlength=100 minlength=2><br>    
+    <button onclick="ordenar()">Ordenar</button>
+    <div id="resultado"></div>
+  </body>
+</html>
+<!--
+Ordenação Bubble Sort:
+
+O objetivo é ordenar os valores de um array de forma decrescente (do menor para o maior).
+
+Serão utilizados dois laços de repetição. O primeiro percorrerá o array a partir do primeiro até o penúltimo elemento, enquanto o segundo laço percorrerá até o último elemento.
+
+O valor na posição indicada pelo primeiro laço será comparada com a próxima posição indicada pelo segundo laço e, se o valor na posição do primeiro for maior que a posição do segundo, será realizada a troca dos elementos dessas posições. Caso contrário, não será realizada a troca, e o próximo par de posições será comparado até que o segundo laço alcance o último elemento.
+
+Quando o segundo laço alcançar o último elemento o programa voltará para o primeiro laço, incrementará o contador para que o próximo elemento seja processado até que todos os elementos tenham sido processados.
+
+Nesse algorítimo o elemento maior é deslocado uma posição para a direita a cada iteração.
+
+function minhaFuncao() { ... };
+
+    Cria uma função JavaScript (também chamada de método);
+    A função definida no exemplo dado, ao ser executada, colocará em ordem crescente um texto qualquer obtido a partir do valor de um elementos da página.
+
+var variável = ( ... )
+
+    Define uma variável e atribui a ela um valor;
+    Os valores atribuídos às variáveis definidas serão as informações de elementos da página identificados através do método getElementById('identificador'), onde .value retornará o valor a ser atribuído.
+
+document.getElementById("ID").value
+
+    Esse método/função retorna o elemento que possui o atributo ID com o valor especificado;
+    É usado quase toda vez em que se desejar manipular ou obter informações de um elemento em seu documento;
+    O atributo .value retorna o conteúdo do elemento.
+
+var arr = document.getElementById("texto").value.split('');
+
+    Define uma variável arr a partir do conteúdo de um elemento da página identificado por id="texto";
+    O método split('') foi encadeado para converter o valor retornado em um array;
+    Finalmente será atribuído o resultado à variável arr.
+    O método: split('')
+
+        Esse método é usado para criar uma matriz (array) a partir de uma cadeia de caracteres;
+        O par de aspas, sem espaço entre elas como argumento do método split(''), indica que deve ser retornado cada um dos caracteres separados por vírgula, inclusive os espaços, se houver;
+
+        Exemplo:
+
+        var nome = 'marcio guillardi';
+        var arrNome = nome.split('');
+
+        O conteúdo do array arrNome será: [m,a,r,c,i,o, ,g,u,i,l,l,a,r,d,i]
+
+var resultadoHTML = document.getElementById("resultado");
+
+    Define uma variável resultadoHTML;
+    Nessa variável será armazenado uma referência a um elemento da página (<div>), identificado por id="resultado";
+    Qualquer alteração feita nessa variável será refletido no elemento na página.
+
+resultadoHTML.innerHTML = 'Não ordenado:<br>' + arr.join(' ') + '<br><br>';
+
+    Essa instrução está alterando o conteúdo HTML do elemento referenciado por resultadoHTML, atribuindo-lhe um novo conteúdo;
+    Essa instrução está apresentando para o usuário o valor original do elemento da página, antes do processamento de ordenação de seus valores;
+    O novo conteúdo está sendo concatenado com algumas TAGs HTML e com o conteúdo do array arr encadeado com o método join(' ');
+    O Método join('')
+
+        Esse método junta todos os elementos de um array em uma sequencia de caracteres;
+        O argumento entre aspas indicará o que deve ser inserido entre os elementos, ou seja, na cadeia de caracteres o que estará separando os elementos;
+        Se o argumento for uma string vazia os elementos estarão juntos e sem espaço entre eles.
+
+        Exemplo:
+
+        var arrNome = ['M','a','r','c','i','o',' ','G','u','i','l','l','a','r','d','i'];
+        var novaVariavel = arrNome.join(' ');
+
+        O conteúdo da varíavel novaVariavel será: 'M a r c i o G u i l l a r d i'
+
+resultadoHTML.innerHTML += 'Ordenado:<br>' + arr.join(' ');
+
+    Finalmente apresenta o resultado no elemento referenciado por resultadoHTML;
+    O Operador += indica que o NOVO conteúdo deverá ser inserido (concatenado) com o conteúdo já existente;
+    O resultado é o conteúdo do array arr após a execução do método join(' ') sobre o seu valor.
+
+for (var i = 0; i < arr.length - 1; i++) { ... };
+
+    Laço de repetição que fará a iteração (repetição sucessiva) do bloco de instruções entre as chaves enquanto o contador (i) for menor que o total de elementos do array;
+    Esse laço de repetição tem por objetivo processar cada elemento do array, a partir do primeiro elemento (índice ZERO, i = 0) até o penúltimo elemento armazenado (i < arr.length-1);
+    Atenção! Se esse laço de repetição processasse até o último elemento o laço seguinte geraria um erro ao tentar acessar o próximo elemento (j = i + 1).
+
+for (var j = i + 1; j < arr.length; j++) { ... };
+
+    Laço de repetição que fará a iteração (repetição sucessiva) do bloco de instruções entre as chaves enquanto o contador (j) for menor que o total de elementos do array;
+    Esse laço de repetição tem por objetivo processar cada elemento do array, a partir do elemento seguinte ao elemento representado por i (j = i + 1) até o último elemento armazenado (j < arr.length).
+
+Realizando a ordenação:
+
+    if (arr[ i ] > arr[ j ]) {
+        tmp = arr[ i ];
+        arr[ i ] = arr[ j ];
+        arr[ j ] = tmp;
+
+    Verificará se o elemento do array na posição representado pelo contador i é maior que o elemento representado por j;
+    Caso seja maior eles serão trocados de lugar usando a variável tmp para armazenar temporariamente um dos elementos enquanto as suas posições são trocadas;
+    Com isso o elemento maior será levado para o final do array.
+-->

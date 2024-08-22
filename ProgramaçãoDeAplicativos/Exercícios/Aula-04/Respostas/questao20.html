@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Exercício</title>
+    <script>
+      function inverter() {
+        var nome = document.getElementById("nome").value;
+        return nome.split(' ').reverse().join('');
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Exercício 12</h1>
+    <label for="nome">Informe um nome qualquer: </label>
+    <input id="nome" type="text" maxlength=100 minlength=2><br>    
+    <button onclick="alert(inverter())">Retrevni (Inverter)</button>
+  </body>
+</html>
+<!--
+function minhaFuncao() { ... };
+
+    Cria uma função JavaScript (também chamada de método);
+    Essa função, ao ser executada, inverterá a sequência de caracteres obtido a partir do valor de um elementos da página.
+
+document.getElementById("nome").value;
+
+    Esse método/função retorna o elemento que possui o atributo id="nome";
+    É usado quase toda vez em que se desejar manipular, ou obter informações, de um elemento do documento/página;
+    .value retorna o valor/conteúdo do campo/elemento.
+
+return ( ... );
+
+    Após executar as instruções a função, ao final, retornará (return) um resultado para o local de onde a rotina foi chamada.
+
+nome.split('').reverse().join('');
+
+    Esse é um encadeamento de métodos, onde chamamos múltiplos métodos no mesmo elemento (nome), sem ter que procurar o mesmo elemento mais de uma vez.
+
+    Funciona assim: Nós pegamos a variável nome e transformamos o seu conteúdo em um array. Nesse array invertemos os seus elementos. Por último transformamos esse array em uma cadeia de caracteres que agora estará invertido.
+
+    split('')
+
+        Esse método é usado para criar uma matriz (array) a partir de uma cadeia de caracteres;
+        O par de aspas simples, sem espaço entre elas, como argumento do método split('') indica que deve ser retornado cada um dos caracteres separados por vírgula, inclusive os espaços, se houver;
+
+        Exemplo:
+
+        var nome = 'marcio guillardi';
+        var arrNome = nome.split('');
+
+        O conteúdo da variável arrNome será: m,a,r,c,i,o, ,g,u,i,l,l,a,r,d,i
+
+    reverse()
+
+        Esse método inverte a ordem dos elementos de uma matriz;
+
+        Exemplo:
+
+        var nome = 'marcio guillardi';
+        var arrNome = nome.split('');
+        var arrInvertido = arrNome.inverse();
+
+        O conteúdo da varíavel arrInvertido será: i,d,r,a,l,l,i,u,g, ,o,i,c,r,a,m
+
+    join('')
+
+        Esse método junta todos os elementos de um array em uma sequencia de caracteres;
+        O par de aspas simples, sem espaço entre elas, como argumento do método join('') indica que deve ser retornado cada um dos elementos, sem espaços entre eles e sem as vírgulas;
+        Vamos pegar a variável arrInvertido do exemplo acima:
+
+        var novaVariavel = arrInvertido.join('');
+
+        O conteúdo da varíavel novaVariavel será: idralliug oicram
+
+<label for="ID">
+
+    Essa TAG define um rótulo para um elemento <input>;
+    Esse elemento não apresenta nada de especial para o usuário. No entanto, ele fornece uma melhoria de usabilidade para os usuários do mouse, porque, se o usuário clica sobre o texto dentro desse elemento o elemento <input> receberá o foco/controle.
+
+<button onclick="minhaFuncao()">Clique aqui!</button>
+
+    Cria um botão e atribui a ele uma chamada de função para o evento onclick;
+    O evento onclick ocorre quando o usuário clica em um elemento;
+    No exemplo dado o evento onclick apresentará uma janela de alerta (alert('mensagem')) onde a 'mensagem' será o valor retornado pela função definida (function inverter() { ... }).
+-->
