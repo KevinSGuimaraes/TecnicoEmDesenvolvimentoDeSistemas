@@ -10,7 +10,6 @@ Bem-vindo ao repositório do curso Técnico em Desenvolvimento de Sistemas do SE
 - [Materiais de Aula](#materiais-de-aula)
 - [Exercícios](#exercícios)
 - [Projetos](#projetos)
-- [Como Contribuir](#como-contribuir)
 - [Contato](#contato)
 
 ## Sobre o Curso
