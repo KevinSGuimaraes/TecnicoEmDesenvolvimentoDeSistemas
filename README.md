@@ -6,10 +6,6 @@ Bem-vindo ao repositório do curso Técnico em Desenvolvimento de Sistemas do SE
 ## Índice
 
 - [Sobre o Curso](#sobre-o-curso)
-- [Estrutura do Repositório](#estrutura-do-repositório)
-- [Materiais de Aula](#materiais-de-aula)
-- [Exercícios](#exercícios)
-- [Projetos](#projetos)
 - [Contato](#contato)
 
 ## Sobre o Curso
@@ -29,64 +25,6 @@ Objetivos específicos
 - Propiciar a vivência de situações de aprendizagens que envolvam os princípios, normas e atitudes do Sistema de Gestão da Qualidade e gerenciamento de tarefas.
 
 - Proporcionar aos alunos, através do desenvolvimento de projetos e atividades desafiadoras, a percepção e incorporação consciente e crítica da estética e da ética nas relações humanas envolvidas em situações profissionais.
-
-## Estrutura do Repositório
-
-- aulas/: Contém os materiais das aulas, como slides, notas e códigos de exemplo.
-- exercicios/: Contém os exercícios propostos durante o curso.
-- projetos/: Contém os projetos desenvolvidos ao longo do curso.
-- docs/: Contém documentações e manuais complementares.
-- referencias/: Contém materiais de referência adicionais.
-
-
-## Materiais de Aula
-
-Os materiais das aulas estão organizados por módulo e aula:
-
-```
-aulas/
-├── modulo1/
-│ ├── aula1/
-│ ├── aula2/
-│ └── ...
-├── modulo2/
-│ ├── aula1/
-│ ├── aula2/
-│ └── ...
-└── ...
-```
-
-# Exercícios
-
-Os exercícios estão organizados por módulo e aula:
-
-```
-exercicios/
-├── modulo1/
-│ ├── aula1/
-│ ├── aula2/
-│ └── ...
-├── modulo2/
-│ ├── aula1/
-│ ├── aula2/
-│ └── ...
-└── ...
-```
-
-# Projetos
-
-Os projetos desenvolvidos ao longo do curso estão organizados por módulo:
-
-```
-projetos/
-├── modulo1/
-│ ├── projeto1/
-│ └── ...
-├── modulo2/
-│ ├── projeto1/
-│ └── ...
-└── ...
-```
 
 # Contato
 
