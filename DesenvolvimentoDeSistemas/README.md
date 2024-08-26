@@ -8,9 +8,6 @@ Bem-vindo ao repositório da disciplina **Desenvolvimento de Sistemas** do curso
 - [Visão Geral](#visão-geral)
 - [Estrutura do Repositório](#estrutura-do-repositório)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Materiais de Aula](#materiais-de-aula)
-- [Exercícios](#exercícios)
-- [Projetos](#projetos)
 - [Contato](#contato)
 
 ## Visão Geral
