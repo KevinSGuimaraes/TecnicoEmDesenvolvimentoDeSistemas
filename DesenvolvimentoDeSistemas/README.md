@@ -77,6 +77,13 @@ Propiciar aos alunos a capacidade de desenvolver sistemas utilizando linguagens 
 
 O projeto final da disciplina será a unificação de todos os conceitos trabalhados em sala de aula. Desenvolveremos um sistema completo utilizando **PHP** para o back-end, com conexão ao banco de dados **PostgreSQL**, e **JavaScript** será utilizado para interações nas páginas web. Todo o código será bem estruturado, seguindo boas práticas de desenvolvimento. 
 
+## Faltas
+
+![Lista de Presença Julho](Imagens/presencaAgosto.png)
+![Lista de Presença Setembro](Imagens/presencaSetembro.png)
+
+## Notas
+
 ## Contato
 
 Para dúvidas ou mais informações, entre em contato:

@@ -26,13 +26,6 @@ Objetivos específicos
 
 - Proporcionar aos alunos, através do desenvolvimento de projetos e atividades desafiadoras, a percepção e incorporação consciente e crítica da estética e da ética nas relações humanas envolvidas em situações profissionais.
 
-## Faltas
-
-![Lista de Presença Julho](Imagens/presencaAgosto.png)
-![Lista de Presença Setembro](Imagens/presencaSetembro.png)
-
-## Notas
-
 ## Contato
 
 Para dúvidas ou mais informações, entre em contato:
