@@ -83,6 +83,33 @@ O projeto final da disciplina será a unificação de todos os conceitos trabalh
 ![Lista de Presença Setembro](Imagens/presencaSetembro.png)
 
 ## Notas
+# Resultados da Avaliação - Projeto Agenda Completa  
+
+## Descrição  
+Este sessão apresenta os resultados da avaliação do trabalho **Agenda Completa**, realizado pelos alunos do curso Técnico em Desenvolvimento de Sistemas.  
+
+O trabalho foi avaliado pela banca com base em critérios técnicos, funcionais e de apresentação. As notas finais foram calculadas e podem ser consultadas nos documentos anexos.  
+
+---
+
+## Links para os resultados  
+
+- **PDF com as notas detalhadas de cada aluno**  
+  [Clique aqui para acessar o PDF com as notas](Imagens/NotasBnaca.pdf)  
+
+- **Imagem com a nota final de cada aluno**  
+  ![Notas finais](Imagens/MediaFinal.png)  
+
+---
+
+## Observações  
+1. A tabela no PDF detalha o desempenho de cada aluno em cada critério avaliado.  
+2. A imagem resume as notas finais, facilitando a visualização geral dos resultados.  
+
+---
+
+**Parabéns a todos os alunos pelo empenho e dedicação!**  
+
 
 ## Contato
 
