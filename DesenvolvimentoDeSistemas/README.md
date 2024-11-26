@@ -98,7 +98,8 @@ O trabalho foi avaliado pela banca com base em critérios técnicos, funcionais 
   [Clique aqui para acessar o PDF com as notas](Imagens/NotasBanca.pdf)  
 
 - **Imagem com a nota final de cada aluno**  
-  ![Notas finais](Imagens/MediaFinal.png)  
+  ![Notas finais](Imagens/MediaFinal.png)
+  ![Recuperação](Imagens/NotasREc.png)  
 
 ---
 
