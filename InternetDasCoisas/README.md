@@ -162,7 +162,7 @@ Confira o calendário de aulas, atividades e avaliações da disciplina de IoT n
 ## 📝 Notas da Disciplina
 
 Acompanhe as notas e o desempenho da turma no arquivo anexo:  
-👉 [Notas IoT](#) *(inserir link ou imagem aqui)*  
+👉 [Notas IoT](imagens/Notas.png)
 
 <!-- Exemplo de imagem -->
 <!-- ![Notas IoT](Imagens/NotasIoT.png) -->  
