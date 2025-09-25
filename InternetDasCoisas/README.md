@@ -155,7 +155,7 @@ Onde:
 ## 📅 Calendário da Disciplina
 
 Confira o calendário de aulas, atividades e avaliações da disciplina de IoT no arquivo anexo:  
-👉 [Calendário IoT](#) *(imagens/Calendário.pdf)*  
+👉 [Calendário IoT](#) [imagens/Calendário.pdf]
 
 ---
 
