@@ -66,33 +66,26 @@ Além disso, são abordados:
 - **Recursos Didáticos:** manuais técnicos, normas, livros, apostilas e revistas  
 
 ---
-<!--
 ## 📂 Estrutura do Repositório
 
 ```
 /IoT
 │
-├── aulas
-│   ├── slides
-│   ├── resumos
-│   └── exemplos
+├── Aulas
+│   └── slides
 │
-├── praticas
-│   ├── sensores
-│   ├── atuadores
-│   ├── conectividade
-│   └── microcontroladores
+├── Exemplos
+│   └── Material de Apoio
 │
-├── atividades
+├── Exercícios
 │   ├── listas
 │   ├── trabalhos
 │   └── projetos
 │
-└── avaliacao
+└── Provas
     ├── provas
     └── recuperacao
 ```
--->
 ---
 
 ## 📊 Critérios de Frequência e Aproveitamento
