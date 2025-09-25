@@ -130,22 +130,32 @@ Um(a) aluno(a) com 8 dias de ausência completos em IoT:
 - As notas são expressas de **0,0 a 10,0**.  
 - A média mínima exigida para aprovação é **7,0 (sete)**.  
 - Caso o(a) aluno(a) não alcance 7,0, poderá realizar **Recuperação Final**.  
-- Fórmula da Recuperação Final:  
 
-\[
-NF = \frac{N + RF}{2}
-\]
+### Fórmula da Recuperação Final
 
-Onde:  
-- **N** = Nota obtida no período  
-- **RF** = Nota da Recuperação Final  
-- **NF** = Nota Final  
+A nota final (NF) é calculada pela média aritmética entre a nota do período (N) e a nota da recuperação final (RF):
 
-📌 Exemplo:  
-- Nota do período = 6,0  
-- Recuperação Final = 4,0  
-- Cálculo: (6,0 + 4,0) ÷ 2 = **5,0**  
-- Resultado: **Aprovado(a) em caráter excepcional** (aproveitamento mínimo após recuperação).  
+**Onde:**
+- `N` = nota obtida no período (0.0 a 10.0)  
+- `RF` = nota obtida na recuperação final (0.0 a 10.0)  
+- `NF` = nota final após a recuperação
+
+**Exemplos:**
+- Exemplo 1:
+  - N = 6.0
+  - RF = 4.0
+  - NF = (6.0 + 4.0) / 2 = **5.0**
+
+- Exemplo 2:
+  - N = 8.0
+  - RF = 7.0
+  - NF = (8.0 + 7.0) / 2 = **7.5**
+
+**Observações importantes:**
+- A média mínima para aprovação **sem recuperação** é **7,0**.
+- Depois da recuperação, considera-se aprovado quem obtiver **NF ≥ 5,0** (conforme política de recuperação do curso).
+- Mesmo com NF suficiente, o(a) aluno(a) deve cumprir a **frequência mínima de 75%** para ser considerado(a) aprovado(a).
+
 
 ⚠️ Importante:  
 - Mesmo que a nota seja suficiente, **frequência abaixo de 75% reprova automaticamente**.  
