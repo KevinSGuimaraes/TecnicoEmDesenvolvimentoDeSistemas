@@ -30,7 +30,10 @@ Objetivos específicos
 
 Para dúvidas ou mais informações, entre em contato:
 
-    Instrutor: [Kevin Guimarães]
-    Email: [kevinguimaraes.trabalho@gmail.com]
+    Instrutor: [Kevin de Souza Guimarães]
+    Email: [kevin.guimaraes3561@sesisenaipr.org.br]
 
 Aproveite o curso e bons estudos!
+
+
+
