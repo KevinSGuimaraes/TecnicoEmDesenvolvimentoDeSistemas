@@ -155,7 +155,7 @@ Onde:
 ## 📅 Calendário da Disciplina
 
 Confira o calendário de aulas, atividades e avaliações da disciplina de IoT no arquivo anexo:  
-👉 [Calendário IoT](#) (https://github.com/KevinSGuimaraes/TecnicoEmDesenvolvimentoDeSistemas/blob/main/InternetDasCoisas/Imagens/Calend%C3%A1rio.pdf).
+👉 [Calendário IoT](https://github.com/KevinSGuimaraes/TecnicoEmDesenvolvimentoDeSistemas/blob/main/InternetDasCoisas/Imagens/Calend%C3%A1rio.pdf).
 
 ---
 
