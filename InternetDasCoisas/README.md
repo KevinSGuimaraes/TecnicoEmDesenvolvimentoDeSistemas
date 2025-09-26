@@ -165,6 +165,8 @@ Confira o calendário de aulas, atividades e avaliações da disciplina de IoT n
 ## Lista de Presença
 ![Lista de Presença](Imagens/Faltas.png)
 
+---
+
 ## 📝 Notas da Disciplina
 
 Acompanhe as notas e o desempenho da turma no arquivo anexo:  
