@@ -11,7 +11,7 @@
 
 A **Internet das Coisas (IoT)** e a **automação inteligente** estão transformando o modo como cidades e indústrias funcionam, integrando sensores, atuadores, sistemas embarcados e plataformas de dados para criar ambientes conectados e eficientes.
 
-Neste projeto integrador, os alunos desenvolverão uma **Cidade Industrial Inteligente (Smart Industry City)** — um protótipo funcional representando um ecossistema industrial automatizado, no qual diferentes setores se comunicam e operam de forma coordenada por meio de sistemas embarcados e IoT.
+Neste projeto, os alunos desenvolverão uma **Cidade Industrial Inteligente (Smart Industry City)** — um protótipo funcional representando um ecossistema industrial automatizado, no qual diferentes setores se comunicam e operam de forma coordenada por meio de sistemas embarcados e IoT.
 
 A estrutura física da cidade será **baseada em modelos 3D pré-desenhados**, fornecidos pelo professor por meio do **Tinkercad**, permitindo que os alunos concentrem seus esforços em:
 - Montagem e integração eletrônica;  
@@ -39,12 +39,12 @@ Projetar e implementar uma **Cidade Industrial Inteligente** em escala reduzida,
 
 ## 3. Escopo do Projeto
 
-O grupo deverá desenvolver **uma maquete funcional de uma Cidade Industrial Inteligente**, composta por múltiplos setores interligados — como fábricas, sistemas de energia, controle de tráfego interno, armazenagem, entre outros.
+O grupo deverá desenvolver **um protótipo funcional de uma Cidade Industrial Inteligente**, composta por múltiplos setores interligados — como fábricas, sistemas de energia, controle de tráfego interno, armazenagem, entre outros.
 
 Cada setor (ou módulo) será automatizado e integrado eletronicamente a uma **plataforma central IoT**, formando um ecossistema único e interconectado.
 
 ### 3.1 Estrutura Física
-- Os **modelos 3D de cada setor** serão **fornecidos previamente** pelo professor Kevin Guimarães, encontrados no **TingiVerse**.  
+- Os **modelos 3D de cada setor** serão **fornecidos previamente** pelo professor Kevin Guimarães, encontrados no **ThingiVerse**.  
 - Os alunos deverão montar os componentes eletrônicos e realizar a integração com os modelos fornecidos.  
 - A impressão 3D será feita sob demanda, conforme a necessidade de componentes físicos adicionais.
 
@@ -66,12 +66,12 @@ O grupo deverá:
 - **Atuadores:** Servos, motores DC, relés, LEDs, buzzers, displays, motores de passo.  
 - **Comunicação:** Wi-Fi, MQTT, HTTP, BLE ou LoRa (opcional).  
 - **Energia:** Fontes de 5V e/ou 12V conforme demanda.  
-- **Estrutura:** Modelos 3D fornecidos pelo professor (Tinkercad).  
+- **Estrutura:** Modelos 3D fornecidos pelo professor (ThingiVerse).  
 
 ### 4.2 Software e Ferramentas
 - **IDE:** Arduino IDE, PlatformIO ou STM32CubeIDE.  
 - **Plataformas IoT:** Blynk, Node-RED, Thingspeak, TagoIO ou similar.  
-- **Modelagem 3D:** Tinkercad (modelos fornecidos).  
+- **Modelagem 3D:** Tinkercad (modelos fornecidos), ThingiVerse.  
 - **Diagramas:** Fritzing, Draw.io, Lucidchart, Tinkercad Circuits.  
 - **Documentação:** Markdown, Word ou PDF técnico.
 
@@ -129,7 +129,7 @@ Cada módulo deverá:
 - Descrição da integração IoT e dashboards criados.  
 
 ### **2. Protótipo Funcional**
-- Maquete completa e operante da Cidade Industrial.  
+- Protótipo completa e operante da Cidade Industrial.  
 - Integração funcional entre setores.  
 - Conectividade IoT implementada.  
 
@@ -171,7 +171,7 @@ O projeto **Cidade Industrial Inteligente (Smart Industry City)** representa um 
 
 A proposta une as áreas de **automação, eletrônica, programação e IoT**, promovendo o aprendizado prático e colaborativo em um ambiente controlado e realista.  
 
-Com o fornecimento dos **modelos 3D via Tinkercad**, os alunos poderão focar integralmente em desenvolver **soluções de automação embarcada**, **lógica de controle** e **comunicação IoT**, demonstrando competências fundamentais para a Indústria 4.0.  
+Com o fornecimento dos **modelos 3D via ThingiVerse**, os alunos poderão focar integralmente em desenvolver **soluções de automação embarcada**, **lógica de controle** e **comunicação IoT**, demonstrando competências fundamentais para a Indústria 4.0.  
 
 > “Aprender é experimentar, projetar e construir o que ainda não existe.”  
 > — Prof. Kevin de Souza Guimarães  
