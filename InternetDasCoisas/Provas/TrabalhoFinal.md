@@ -3,8 +3,7 @@
 ### Unidade: SENAI – Dois Vizinhos  
 ### Disciplina: Internet das Coisas (IoT)  
 ### Professor: Kevin de Souza Guimarães  
-### Turma: Única (projeto coletivo)  
-### Período: _____________________  
+### Turma: Módulo II - Março/2025  
 
 ---
 
