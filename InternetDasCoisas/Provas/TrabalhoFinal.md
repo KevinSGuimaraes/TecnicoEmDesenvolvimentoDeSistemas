@@ -1,4 +1,4 @@
-# 🏙️ Projeto Integrador – Cidade Industrial Inteligente (Smart Industry City)
+# 🏙️ Projeto Integrador – Cidade Industrial Inteligente  
 ### Curso: Técnico em Desenvolvimento de Sistemas  
 ### Unidade: SENAI – Dois Vizinhos  
 ### Disciplina: Internet das Coisas (IoT)  
