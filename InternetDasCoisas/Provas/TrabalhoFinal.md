@@ -44,7 +44,7 @@ O grupo deverá desenvolver **uma maquete funcional de uma Cidade Industrial Int
 Cada setor (ou módulo) será automatizado e integrado eletronicamente a uma **plataforma central IoT**, formando um ecossistema único e interconectado.
 
 ### 3.1 Estrutura Física
-- Os **modelos 3D de cada setor** serão **fornecidos previamente** pelo professor Kevin Guimarães, desenvolvidos no **Tinkercad**.  
+- Os **modelos 3D de cada setor** serão **fornecidos previamente** pelo professor Kevin Guimarães, encontrados no **TingiVerse**.  
 - Os alunos deverão montar os componentes eletrônicos e realizar a integração com os modelos fornecidos.  
 - A impressão 3D será feita sob demanda, conforme a necessidade de componentes físicos adicionais.
 
