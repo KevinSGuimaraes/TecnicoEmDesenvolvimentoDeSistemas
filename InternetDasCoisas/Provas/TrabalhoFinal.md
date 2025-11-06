@@ -1,4 +1,4 @@
-# 🏙️ Projeto Integrador – Cidade Industrial Inteligente  
+# Projeto Integrador – Cidade Industrial Inteligente  
 ### Curso: Técnico em Desenvolvimento de Sistemas  
 ### Unidade: SENAI – Dois Vizinhos  
 ### Disciplina: Internet das Coisas (IoT)  
@@ -7,11 +7,11 @@
 
 ---
 
-## 🧭 1. Introdução
+## 1. Introdução
 
 A **Internet das Coisas (IoT)** e a **automação inteligente** estão transformando o modo como cidades e indústrias funcionam, integrando sensores, atuadores, sistemas embarcados e plataformas de dados para criar ambientes conectados e eficientes.
 
-Neste projeto integrador, os alunos desenvolverão uma **Cidade Industrial Inteligente (Smart Industry City)** — uma maquete funcional representando um ecossistema industrial automatizado, no qual diferentes setores se comunicam e operam de forma coordenada por meio de sistemas embarcados e IoT.
+Neste projeto integrador, os alunos desenvolverão uma **Cidade Industrial Inteligente (Smart Industry City)** — um protótipo funcional representando um ecossistema industrial automatizado, no qual diferentes setores se comunicam e operam de forma coordenada por meio de sistemas embarcados e IoT.
 
 A estrutura física da cidade será **baseada em modelos 3D pré-desenhados**, fornecidos pelo professor por meio do **Tinkercad**, permitindo que os alunos concentrem seus esforços em:
 - Montagem e integração eletrônica;  
@@ -21,7 +21,7 @@ A estrutura física da cidade será **baseada em modelos 3D pré-desenhados**, f
 
 ---
 
-## 🎯 2. Objetivos
+## 2. Objetivos
 
 ### 2.1 Objetivo Geral
 Projetar e implementar uma **Cidade Industrial Inteligente** em escala reduzida, integrando conceitos de automação, controle, IoT e sistemas embarcados, utilizando plataformas de desenvolvimento como **Arduino, ESP32 e STM32**.
@@ -37,7 +37,7 @@ Projetar e implementar uma **Cidade Industrial Inteligente** em escala reduzida,
 
 ---
 
-## 🏗️ 3. Escopo do Projeto
+## 3. Escopo do Projeto
 
 O grupo deverá desenvolver **uma maquete funcional de uma Cidade Industrial Inteligente**, composta por múltiplos setores interligados — como fábricas, sistemas de energia, controle de tráfego interno, armazenagem, entre outros.
 
@@ -58,7 +58,7 @@ O grupo deverá:
 
 ---
 
-## ⚙️ 4. Requisitos Técnicos
+## 4. Requisitos Técnicos
 
 ### 4.1 Hardware
 - **Controladores:** Arduino, ESP32, ESP8266 ou STM32.  
@@ -77,7 +77,7 @@ O grupo deverá:
 
 ---
 
-## 🧩 5. Etapas de Desenvolvimento
+## 5. Etapas de Desenvolvimento
 
 ### **Etapa 1 – Planejamento e Divisão de Setores**
 - Definição dos módulos/estações industriais (energia, logística, controle, produção etc.).  
@@ -106,7 +106,7 @@ O grupo deverá:
 
 ---
 
-## 📡 6. Comunicação e Integração IoT
+## 6. Comunicação e Integração IoT
 
 A **Cidade Industrial Inteligente** deverá funcionar como um sistema distribuído, onde cada setor troca informações com um **servidor central IoT**.
 
@@ -118,7 +118,7 @@ Cada módulo deverá:
 
 ---
 
-## 🧠 7. Entregáveis
+## 7. Entregáveis
 
 ### **1. Documentação Técnica**
 - Descrição detalhada do projeto e sua arquitetura.  
@@ -140,7 +140,7 @@ Cada módulo deverá:
 
 ---
 
-## 📅 8. Cronograma Sugerido
+## 8. Cronograma Sugerido
 
 | Etapa | Atividade | Prazo (Semanas) |
 |-------|------------|----------------|
@@ -152,7 +152,7 @@ Cada módulo deverá:
 
 ---
 
-## 🧾 9. Critérios de Avaliação
+## 9. Critérios de Avaliação
 
 | Critério | Descrição | Peso |
 |-----------|------------|------|
@@ -165,7 +165,7 @@ Cada módulo deverá:
 
 ---
 
-## 💡 10. Considerações Finais
+## 10. Considerações Finais
 
 O projeto **Cidade Industrial Inteligente (Smart Industry City)** representa um desafio integrador de alto valor técnico e educacional.  
 
