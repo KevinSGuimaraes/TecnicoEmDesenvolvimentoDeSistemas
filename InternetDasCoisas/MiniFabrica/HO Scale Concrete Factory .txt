@@ -1,0 +1,97 @@
+Summary
+
+HO Scale Concrete Factory
+This is my first attempt at designing and printing anything substantial for my HO layout so here are some notes to share:
+
+    I used pictures from Google Images to “imagineer” this model.
+    I basically scaled it to fit the cement truck.
+    Some details were exaggerated so they could be printed.
+    Everything was printed on my single head extruder printer with PLA.
+    Many of the .stl’s are at a 45° angle to improve the lines on the details.
+    Many parts have locating tabs and holes to make it easy to assemble.
+    I used Medium and Thick CA to glue the pieces together.
+    I added Woodland Scenics Fine Ballast Gray Blend B1393 for gravel.
+    Lots of work, lots of fun!
+
+Print Settings
+
+    Printer brand:
+
+    LulzBot
+    Printer:
+
+    TAZ 6
+    Rafts:
+    No
+    Supports:
+    Yes
+    Resolution:
+
+    Standard
+    Infill:
+
+    Mostly 20% but 100% on handrails
+    Notes:
+
+    I used PLA and a brim on some of the small parts. Some parts can be printed together as a larger part, but it made it easier to paint as separate pieces.
+
+How I Designed This
+Sketchup 8
+
+I used images from Google to imagineer the factory and scaled it to fit the cement truck.
+
+==============================================================================================================================================================
+Resumo
+
+Fábrica de Concreto em Escala HO
+Esta é minha primeira tentativa de projetar e imprimir algo substancial para minha maquete em escala HO, então aqui estão algumas observações:
+
+Usei imagens do Google para "imaginar" este modelo.
+
+Basicamente, dimensionei-o para que coubesse no caminhão betoneira.
+
+Alguns detalhes foram exagerados para que pudessem ser impressos.
+
+Tudo foi impresso em minha impressora com extrusora de cabeçote único, usando filamento PLA.
+Muitos dos arquivos .stl estão em um ângulo de 45° para melhorar as linhas dos detalhes.
+
+Muitas peças têm encaixes e furos para facilitar a montagem.
+
+Usei cola CA média e grossa para unir as peças.
+
+Adicionei cascalho Woodland Scenics Fine Ballast Gray Blend B1393.
+
+Muito trabalho, muita diversão!
+
+Configurações de Impressão
+
+Marca da impressora:
+
+LulzBot
+
+Impressora:
+
+TAZ 6
+Rafts:
+
+Não
+Suportes:
+
+Sim
+
+Resolução:
+
+Padrão
+
+Preenchimento:
+
+Principalmente 20%, mas 100% nos corrimãos
+
+Observações:
+
+Usei PLA e uma borda em algumas das peças pequenas. Algumas peças podem ser impressas juntas como uma peça maior, mas isso facilitou a pintura em peças separadas.
+
+Como eu projetei isso
+Sketchup 8
+
+Usei imagens do Google para imaginar a fábrica e dimensioná-la para caber no caminhão de cimento.

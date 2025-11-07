@@ -1,0 +1,51 @@
+Summary
+
+This object was made in Tinkercad. Edit it online https://www.tinkercad.com/things/7OoQJVNiLWm
+Print Settings
+
+    Printer brand:
+
+    Proton
+    Printer:
+
+    Proton X Rail
+    Rafts:
+    No
+    Supports:
+    Yes
+    Resolution:
+
+    2k
+
+How I Designed This
+
+The design is based on a boiler I saw at Blist Hill Victorian Museum.
+
+===================================================================================================
+
+Resumo
+
+Este objeto foi criado no Tinkercad. Edite-o online em https://www.tinkercad.com/things/7OoQJVNiLWm
+Configurações de Impressão
+
+Marca da impressora:
+
+Proton
+
+Impressora:
+
+Proton X Rail
+Bases:
+
+Não
+Suportes:
+
+Sim
+
+Resolução:
+
+2k
+
+Como eu projetei isso
+
+O projeto é baseado em uma caldeira que vi no Museu Vitoriano de Blist Hill.

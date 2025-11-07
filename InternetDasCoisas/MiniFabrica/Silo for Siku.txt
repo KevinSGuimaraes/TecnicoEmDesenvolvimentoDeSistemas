@@ -1,0 +1,29 @@
+Summary
+
+Silo for Siku 1:87.
+Roof can be removed, Silo can be filled and there is an opening on the bottom side.
+
+Roof is printed without supports.
+For silo support in the middle was neccessary.
+
+SiloV2 is with a gate on the lower side for closing the silo.
+Roof is the same for both versions.
+For SiloV2 a Cura file with all settings is attached.
+
+=======================================================================================
+
+Resumo
+
+Silo para Siku 1:87.
+
+O teto pode ser removido, o silo pode ser enchido e há uma abertura na parte inferior.
+
+O teto é impresso sem suportes.
+
+Para o silo, foi necessário um suporte no meio.
+
+O SiloV2 possui uma comporta na parte inferior para fechá-lo.
+
+O teto é o mesmo para ambas as versões.
+
+Para o SiloV2, um arquivo Cura com todas as configurações está incluído.

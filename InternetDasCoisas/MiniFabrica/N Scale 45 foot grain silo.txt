@@ -1,0 +1,17 @@
+Summary
+
+This is an N Scale concrete grain silo optimized for 3D resin printing. This is the first N Scale 3D CAD design I ever created so there are a couple of things to note. The chute is slightly longer than necessary so you will want to sand it, most likely after gluing it onto the silo body. Also, the ladder isn't exactly to scale, but it's okay. 
+
+Helpful tips for painting. Paint all parts individually prior to assembly. To paint the steel bands around the silo, paint the silo with your concrete color of choice first and let dry, then paint your steel band color of choice onto a sheet of card stock and roll the silo back and forth across the painted card stock surface to pick up enough paint to color the bands. ;)
+
+This thing was made with Tinkercad. Edit it online https://www.tinkercad.com/things/9CADsUnxUmi
+
+============================================================================================================
+
+Resumo
+
+Este é um silo de concreto para grãos em escala N, otimizado para impressão 3D em resina. Este é o primeiro projeto CAD 3D em escala N que eu criei, então há alguns detalhes a serem observados. A calha é ligeiramente mais longa do que o necessário, então você provavelmente precisará lixá-la, provavelmente depois de colá-la no corpo do silo. Além disso, a escada não está exatamente em escala, mas está bom.
+
+Dicas úteis para pintura: Pinte todas as peças individualmente antes da montagem. Para pintar as faixas de aço ao redor do silo, pinte o silo com a cor de concreto de sua escolha primeiro e deixe secar. Em seguida, pinte a cor das faixas de aço em uma folha de cartolina e role o silo para frente e para trás sobre a superfície pintada para pegar tinta suficiente para colorir as faixas. ;)
+
+Este modelo foi feito com o Tinkercad. Edite-o online em https://www.tinkercad.com/things/9CADsUnxUmi
