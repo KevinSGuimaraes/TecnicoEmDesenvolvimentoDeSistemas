@@ -1,0 +1,4 @@
+Factory building - Fabrikgebäude by Galminus on Thingiverse: https://www.thingiverse.com/thing:4819380
+
+Summary:
+Factory building of the Aachen textile industry from the late 19th century. The building belonged to the Dechamps textile factory and was part of a larger complex in the Aachen district of Burtscheid.The building belongs to the same factory complex as the other one published here on Thingiverse.The model was designed for the scale 1:87 (H0).Fabrikgebäude der Aachener Textilindustrie aus dem späten 19. Jahrhundert. Das Gebäude gehörte zur Textilfabrik Dechamps und war Teil eines größeren Komplexes im Aachener Ortsteil Burtscheid.Das Gebäude gehört zum gleichen Fabrikkomplex wie das andere hier auf Thingiverse veröffentlichte.Das Modell wurde konzipiert für den Maßstab 1:87 (H0).
