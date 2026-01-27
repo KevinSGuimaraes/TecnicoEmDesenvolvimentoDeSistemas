@@ -126,6 +126,17 @@ Propiciar o desenvolvimento de **capacidades técnicas e socioemocionais** reque
 
 ---
 
+## 📖 Livro de Referência – Curso de Bando de Dados (SENAI)
+
+Este é o link oficial do **livro digital que será utilizado como material de apoio no curso de Banco de Dados do SENAI**:
+
+👉 [Acessar o livro](https://estantedelivros.senai.br/view/1_624vYD3EctYvJCfoNRDl30hqPszUP_7)
+
+Todos os dias, durante as aulas, vocês deverão acessar este link para acompanhar o conteúdo, realizar as leituras orientadas e consultar sempre que necessário.  
+O material será a base para as explicações, atividades práticas e discussões em sala.
+
+---
+
 ## 📂 Estrutura do Repositório
 
 ```
