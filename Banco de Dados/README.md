@@ -213,7 +213,7 @@ Acompanhe as notas e o desempenho da turma no arquivo anexo:
 ## 📝 Plano de Curso
 
 Acompanhe as notas e o desempenho da turma no arquivo anexo:  
-👉 [Plano de Curso](Imagens/Plano de Curso - UC Banco de Dados.pdf)
+👉 [Plano de Curso](Imagens/"Plano de Curso - UC Banco de Dados.pdf")
 
 ---
 ## 📬 Contato
