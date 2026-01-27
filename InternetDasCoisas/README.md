@@ -172,6 +172,12 @@ Confira o calendário de aulas, atividades e avaliações da disciplina de IoT n
 Acompanhe as notas e o desempenho da turma no arquivo anexo:  
 👉 [Notas IoT](Imagens/Notas.png)
 
+---
+
+## 📝 Plano de Curso
+
+Acompanhe as notas e o desempenho da turma no arquivo anexo:  
+👉 [Plano de Curso](https://github.com/KevinSGuimaraes/TecnicoEmDesenvolvimentoDeSistemas/blob/main/InternetDasCoisas/Imagens/Plano%20de%20Curso%20-%20UC%20IoT.pdf)
 <!-- Exemplo de imagem -->
 <!-- ![Notas IoT](Imagens/NotasIoT.png) -->  
 
