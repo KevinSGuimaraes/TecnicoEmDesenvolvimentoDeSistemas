@@ -194,7 +194,7 @@ Mesmo que a nota seja suficiente, frequência abaixo de 75% reprova automaticame
 ## 📅 Calendário da Disciplina
 
 Confira o calendário de aulas, atividades e avaliações da disciplina de Banco de Dados no arquivo anexo:  
-👉 [Calendário Banco de Dados](Imagens/Calendario.pdf)
+👉 [Calendário Banco de Dados](https://github.com/KevinSGuimaraes/TecnicoEmDesenvolvimentoDeSistemas/blob/main/Banco%20de%20Dados/Imagens/Calend%C3%A1rio.pdf)
 
 ---
 
@@ -213,7 +213,7 @@ Acompanhe as notas e o desempenho da turma no arquivo anexo:
 ## 📝 Plano de Curso
 
 Acompanhe as notas e o desempenho da turma no arquivo anexo:  
-👉 [Plano de Curso](Imagens/"Plano de Curso - UC Banco de Dados.pdf")
+👉 [Plano de Curso](https://github.com/KevinSGuimaraes/TecnicoEmDesenvolvimentoDeSistemas/blob/main/Banco%20de%20Dados/Imagens/Plano%20de%20Curso%20-%20UC%20Banco%20de%20Dados.pdf)
 
 ---
 ## 📬 Contato
