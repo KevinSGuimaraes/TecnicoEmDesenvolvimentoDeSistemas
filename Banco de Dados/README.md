@@ -243,6 +243,11 @@ Confira o calendário de aulas, atividades e avaliações da disciplina de Banco
 ## 📝 Notas da Disciplina
 
 Acompanhe as notas e o desempenho da turma no arquivo anexo:  
+
+$$
+MF = \frac{DER + MER + MF + Beecrownd + Prova}{5}
+$$
+
 👉 [Notas Banco de Dados](Imagens/Notas.png)
 
 ---

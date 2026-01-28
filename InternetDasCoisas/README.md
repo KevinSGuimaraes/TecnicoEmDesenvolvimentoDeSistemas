@@ -180,7 +180,13 @@ Confira o calendário de aulas, atividades e avaliações da disciplina de IoT n
 
 ## 📝 Notas da Disciplina
 
-Acompanhe as notas e o desempenho da turma no arquivo anexo:  
+Acompanhe as notas e o desempenho da turma no arquivo anexo: 
+
+$$
+MF = \left(0{,}3 \cdot \frac{ATV1 + ATV2 + ATV3 + ATV4 + ATV5 + ATV6 + ATV7 + ATV8}{8}\right)
+     + (0{,}7 \cdot PF)
+$$
+ 
 👉 [Notas IoT](Imagens/Notas.png)
 
 ---
