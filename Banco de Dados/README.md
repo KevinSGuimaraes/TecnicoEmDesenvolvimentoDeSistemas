@@ -242,6 +242,9 @@ Confira o calendário de aulas, atividades e avaliações da disciplina de Banco
 
 ## 📝 Notas da Disciplina
 
+Data da Avaliação   - 30/03/2026
+Data da Recuperação - 06/04/2026
+
 Acompanhe as notas e o desempenho da turma no arquivo anexo:  
 
 $$
