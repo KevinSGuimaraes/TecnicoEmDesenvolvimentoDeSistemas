@@ -39,10 +39,10 @@ Propiciar aos alunos a capacidade de desenvolver sistemas utilizando linguagens 
 - HTML5, CSS3 e JavaScript para desenvolvimento front-end e interatividade.
 - PHP8 para programação back-end, Será realizada integração/conexão com o banco de dados (PostgreSQL).
 - Desenvolvimento de sistemas estruturados, com ênfase na integração entre front-end e back-end.
-
+<!--
 ### Plano de Aula
 ![Plano de Aula](Imagens/Cronograma_de_Aulas.pdf)
-
+-->
 ### Calendário Disciplina
 ![Calendario](Imagens/Calendario.pdf)
 
@@ -73,6 +73,7 @@ Propiciar aos alunos a capacidade de desenvolver sistemas utilizando linguagens 
 - **Banco de Dados**: PostgreSQL
 - **Controle de Versão**: Git, GitHub
 
+<!--
 ### Estruturação do Projeto
 
 O projeto final da disciplina será a unificação de todos os conceitos trabalhados em sala de aula. Desenvolveremos um sistema completo utilizando **PHP** para o back-end, com conexão ao banco de dados **PostgreSQL**, e **JavaScript** será utilizado para interações nas páginas web. Todo o código será bem estruturado, seguindo boas práticas de desenvolvimento. 
@@ -94,13 +95,14 @@ O trabalho foi avaliado pela banca com base em critérios técnicos, funcionais 
 
 ## Links para os resultados  
 
+<!--
 - **PDF com as notas detalhadas de cada aluno**  
-  [Clique aqui para acessar o PDF com as notas](Imagens/NotasBanca.pdf)  
+ [Clique aqui para acessar o PDF com as notas](Imagens/NotasBanca.pdf)  
 
 - **Imagem com a nota final de cada aluno**  
   ![Notas finais](Imagens/MediaFinal.png)
   ![Recuperação](Imagens/NotasREc.png)  
-
+-->
 ---
 
 ## Observações  
