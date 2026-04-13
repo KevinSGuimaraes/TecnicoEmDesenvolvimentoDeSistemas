@@ -1,5 +1,5 @@
-# <p align="center"> Curso Técnico em Desenvolvimento de Sistemas </p>
-# <p align="center"> SENAI DOIS VIZINHOS - PR </p>
+# 🌐 Curso Técnico em Desenvolvimento de Sistemas
+## 💻 Unidade Curricular: Desenvolvimento de Sistemas
 
 Bem-vindo ao repositório da disciplina **Desenvolvimento de Sistemas** do curso Técnico em Desenvolvimento de Sistemas do SENAI Dois Vizinhos - PR. Aqui você encontrará todos os materiais, exercícios e atividades relacionadas às aulas ministradas.
 
@@ -10,7 +10,7 @@ Bem-vindo ao repositório da disciplina **Desenvolvimento de Sistemas** do curso
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Contato](#contato)
 
-## Visão Geral
+## 🎯 Objetivo da UC
 
 Esta disciplina tem como objetivo proporcionar o desenvolvimento das capacidades técnicas e socioemocionais necessárias para o desenvolvimento de sistemas computacionais, atendendo normas e padrões de qualidade, usabilidade, robustez, integridade e segurança da informação.
 
@@ -37,89 +37,125 @@ Propiciar aos alunos a capacidade de desenvolver sistemas utilizando linguagens 
 
 #### 3. Linguagens de Programação
 - HTML5, CSS3 e JavaScript para desenvolvimento front-end e interatividade.
-- PHP8 para programação back-end, Será realizada integração/conexão com o banco de dados (PostgreSQL).
+- PHP8 para programação back-end, com integração ao banco de dados (PostgreSQL).
 - Desenvolvimento de sistemas estruturados, com ênfase na integração entre front-end e back-end.
-<!--
-### Plano de Aula
-![Plano de Aula](Imagens/Cronograma_de_Aulas.pdf)
--->
-### Calendário Disciplina
-![Calendario](Imagens/Calendario.pdf)
 
-### Capacidades Desenvolvidas
-- Desenvolver sistemas de acordo com padrões de usabilidade, robustez e segurança.
-- Integrar diferentes sistemas utilizando bibliotecas e conexão com banco de dados.
-- Aplicar metodologias ágeis no desenvolvimento dos projetos.
-- Utilizar ferramentas de controle de versão para gerência de configuração e colaboração.
+## 📅 Calendário da Disciplina
 
-### Ambientes Pedagógicos
-- Laboratório de informática equipado com sistemas operacionais, IDEs e ferramentas de desenvolvimento.
+Confira o calendário de aulas, atividades e avaliações da disciplina de Desenvolvimento de Sistemas no arquivo anexo:  
+👉 [Calendário Desenvolvimento de Sistemas](https://github.com/KevinSGuimaraes/TecnicoEmDesenvolvimentoDeSistemas/blob/main/DesenvolvimentoDeSistemas/Imagens/Calendario.pdf)
 
-### Competências Socioemocionais
+## 📊 Critérios de Frequência e Aproveitamento
+
+No curso, o(a) aluno(a) deve atender aos seguintes requisitos para ser considerado(a) **aprovado(a)**:  
+
+- **Frequência mínima:** 75% de presença em cada unidade curricular.  
+- **Nota mínima:** média final igual ou superior a **7,0 (sete)**.  
+
+### Como são contabilizadas as faltas:
+- Cada **dia letivo corresponde a 4 aulas (4 horas-aula)**.  
+- As faltas são computadas **por aula** (não por dia).  
+- Se o(a) aluno(a) faltar um dia inteiro → equivale a **4 faltas**.  
+- Em **Desenvolvimento de Sistemas (200h = 50 dias =  200 aulas)** → o limite de 25% equivale a **50 faltas permitidas (12 dias e meio)**.  
+
+### Sistema de Notas
+- As notas são expressas de **0,0 a 10,0**.  
+- A média mínima exigida para aprovação é **7,0 (sete)**.  
+- Caso o(a) aluno(a) não alcance 7,0, poderá realizar **Recuperação Final**.  
+
+### Fórmula da Recuperação Final
+
+A nota final (NF) é calculada pela média aritmética entre a nota do período (N) e a nota da recuperação final (RF):
+
+**Onde:**
+- `N` = nota obtida no período (0.0 a 10.0)  
+- `RF` = nota obtida na recuperação final (0.0 a 10.0)  
+- `NF` = nota final após a recuperação
+
+**Exemplos:**
+- Exemplo 1:
+  - N = 6.0
+  - RF = 4.0
+  - NF = (6.0 + 4.0) / 2 = **5.0**
+
+- Exemplo 2:
+  - N = 8.0
+  - RF = 7.0
+  - NF = (8.0 + 7.0) / 2 = **7.5**
+
+**Observações importantes:**
+- A média mínima para aprovação **sem recuperação** é **7,0**.
+- Depois da recuperação, considera-se aprovado quem obtiver **NF ≥ 5,0** (conforme política de recuperação do curso).
+- Mesmo com NF suficiente, o(a) aluno(a) deve cumprir a **frequência mínima de 75%** para ser considerado(a) aprovado(a).
+
+
+⚠️ Importante:  
+- Mesmo que a nota seja suficiente, **frequência abaixo de 75% reprova automaticamente**.  
+
+## Lista de Presença
+![Lista de Presença](Imagens/Faltas.png)
+
+## 🤝 Capacidades Desenvolvidas
+
+### Técnicas
+- Desenvolver sistemas web seguindo padrões de usabilidade, robustez e segurança.
+- Integrar aplicações com banco de dados e bibliotecas externas.
+- Aplicar metodologias ágeis no desenvolvimento de projetos.
+- Utilizar ferramentas de versionamento para controle de código e colaboração.
+
+### Socioemocionais
 - Colaboração em atividades coletivas e projetos.
 - Organização e planejamento no desenvolvimento de atividades técnicas.
 - Comunicação eficaz e comportamento profissional em equipes de desenvolvimento.
 
-## Estrutura do Repositório
+## 🖥️ Ambientes Pedagógicos
 
-- `aulas/`: Contém os materiais das aulas, como slides, notas e códigos de exemplo.
-- `exercicios/`: Contém os exercícios propostos durante o curso.
-- `referencias/`: Contém materiais de referência adicionais.
+- Laboratório de informática equipado com sistemas operacionais, IDEs e ferramentas de desenvolvimento.
 
-## Tecnologias Utilizadas
+## 📂 Estrutura do Repositório
+
+```
+/DesenvolvimentoDeSistemas
+│
+├── Aulas
+│   └── materiais
+│
+├── Exemplos
+│   └── projetos
+│
+├── Exercícios
+│   ├── listas
+│   ├── desafios
+│   └── projetos
+│
+├── Avaliações
+│   ├── provas
+│   └── recuperação
+```
+
+## 🛠️ Tecnologias Utilizadas
 
 - **Front-end**: HTML5, CSS3, JavaScript
 - **Back-end**: PHP8
 - **Banco de Dados**: PostgreSQL
 - **Controle de Versão**: Git, GitHub
 
-<!--
-### Estruturação do Projeto
+## 🚀 Metodologia
 
-O projeto final da disciplina será a unificação de todos os conceitos trabalhados em sala de aula. Desenvolveremos um sistema completo utilizando **PHP** para o back-end, com conexão ao banco de dados **PostgreSQL**, e **JavaScript** será utilizado para interações nas páginas web. Todo o código será bem estruturado, seguindo boas práticas de desenvolvimento. 
+- Aulas práticas com desenvolvimento de projetos reais  
+- Integração entre front-end e back-end  
+- Uso contínuo de versionamento com Git e GitHub  
+- Aprendizagem baseada em resolução de problemas  
 
-## Faltas
+## 📝 Plano de Curso
 
-![Lista de Presença Julho](Imagens/presencaAgosto.png)
-![Lista de Presença Setembro](Imagens/presencaSetembro.png)
-
-## Notas
-# Resultados da Avaliação - Projeto Agenda Completa  
-
-## Descrição  
-Este sessão apresenta os resultados da avaliação do trabalho **Agenda Completa**, realizado pelos alunos do curso Técnico em Desenvolvimento de Sistemas.  
-
-O trabalho foi avaliado pela banca com base em critérios técnicos, funcionais e de apresentação. As notas finais foram calculadas e podem ser consultadas nos documentos anexos.  
+Acompanhe as notas e o desempenho da turma no arquivo anexo:  
+👉 [Plano de Curso](https://github.com/KevinSGuimaraes/TecnicoEmDesenvolvimentoDeSistemas/blob/main/DesenvolvimentoDeSistemas/Imagens/Plano%20de%20Curso%20Desenvolvimento%20de%20Sistemas.pdf)
 
 ---
+## 📬 Contato
 
-## Links para os resultados  
+- **Instrutor:** Kevin de Souza Guimarães  
+- **Email:** kevin.guimaraes3561@sesisenaipr.org.br  
 
-<!--
-- **PDF com as notas detalhadas de cada aluno**  
- [Clique aqui para acessar o PDF com as notas](Imagens/NotasBanca.pdf)  
-
-- **Imagem com a nota final de cada aluno**  
-  ![Notas finais](Imagens/MediaFinal.png)
-  ![Recuperação](Imagens/NotasREc.png)  
--->
----
-
-## Observações  
-1. A tabela no PDF detalha o desempenho de cada aluno em cada critério avaliado.  
-2. A imagem resume as notas finais, facilitando a visualização geral dos resultados.  
-
----
-
-**Parabéns a todos os alunos pelo empenho e dedicação!**  
-
-
-## Contato
-
-Para dúvidas ou mais informações, entre em contato:
-
-Instrutor: **[Kevin de Souza Guimarães]**  
-Email: **[kevinguimaraes.trabalho@gmail.com]**
-
-Aproveite o curso e bons estudos!
 
