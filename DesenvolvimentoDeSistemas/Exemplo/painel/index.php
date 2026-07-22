@@ -7,13 +7,11 @@
     <link href="public/css/style_login.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
     <div class="login-box">
 
         <h1>Login</h1>
 
-        <form action="#" method="POST">
-
+        <form action="app/controllers/login.php" method="POST">
             <div class="input-group">
                 <label>Email</label>
                 <input type="email" name="email">
@@ -27,10 +25,7 @@
             <button type="submit" name="acao" value="login">
                 Entrar
             </button>
-
         </form>
-
     </div>
-
 </body>
 </html>
