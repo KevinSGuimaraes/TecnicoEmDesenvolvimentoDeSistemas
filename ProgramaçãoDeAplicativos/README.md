@@ -26,11 +26,12 @@ Capacitar os alunos a desenvolver aplicações web utilizando HTML, CSS e JavaSc
 
 # Calendário
 ![Calendário](imagens/Calendário.pdf)
-# Lista de Presença
 
+# Lista de Presença
 ![Lista de Presença](imagens/lista_presenca.png)
 
 # Notas Atividades
+![Notas Atividades](imagens/notas_atividades.png)
 
 # Média Final
 
