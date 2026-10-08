@@ -66,7 +66,8 @@ HTML
     │   │
     │   ├── SECTION — Tutoriais
     │   │   ├── ARTICLE
-    │   │   └── ARTICLE
+    │   │   ├──  ARTICLE
+	│	│	└── ARTICLE
     │   │
     │   ├── SECTION — Glossário
     │   │
