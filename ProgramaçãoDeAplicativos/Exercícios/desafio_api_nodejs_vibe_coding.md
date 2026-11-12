@@ -842,23 +842,7 @@ requisição POST.
 Durante a apresentação, vocês deverão conseguir explicar cada uma dessas
 etapas e relacioná-las com os arquivos e funções existentes no projeto.
 
-# 12. Desafio surpresa --- alteração durante a apresentação
-
-Depois que a equipe demonstrar que sua API está funcionando, o professor
-poderá solicitar uma pequena alteração.
-
-Exemplos: - Adicionar um novo campo à entidade. - Criar um filtro por
-status. - Criar uma rota para buscar registros por nome. - Impedir o
-cadastro de e-mails duplicados. - Alterar a resposta de uma
-requisição. - Criar uma validação adicional.
-
-Vocês poderão utilizar IA para implementar a alteração, mas precisarão
-explicar o que foi modificado e por quê.
-
-O objetivo é verificar se sabem conduzir a IA e compreender o impacto
-das alterações, em vez de apenas apresentar um projeto pronto.
-
-# 13. Regras de ouro do Vibe Coding
+# 12. Regras de ouro do Vibe Coding
 
 1.  **Não peça tudo de uma vez.** Divida o desenvolvimento em etapas.
 2.  **Não aceite tudo que a IA gerar.** Analise, execute e teste.
